@@ -1,6 +1,6 @@
-
-.header{
-    background-color: rgb(255, 248, 243);;
+.header {
+    background-color: rgb(255, 248, 243);
+    ;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -49,109 +49,140 @@ nav li {
     border: 0;
     color: rgb(255, 255, 255);
     font-size: 20px;
-font-weight: 700;
-padding: 18px 35px;
+    font-weight: 700;
+    padding: 18px 35px;
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner .profile-pic{
+.banner .profile-pic {
     width: 500px;
 }
 
-.banner-wel{
+.banner-wel {
     font-size: 45px;
-font-weight: 600;
-color: rgb(71, 71, 71);
-margin bottom: 0px;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+    margin bottom: 0px;
 
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
-font-weight: 700;
-margin top: 2px;
-margin-bottom: 0;
+    font-weight: 700;
+    margin top: 2px;
+    margin-bottom: 0;
 }
-.banner-dis{
+
+.banner-dis {
     width: 585px;
-height: 60px;
+    height: 60px;
     margin-top: 5px;
 }
 
-.banner-contant{
+.banner-contant {
     width: 500px;
 }
 
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
-background: rgb(255, 248, 243);
-margin: 130px 0px;
+    background: rgb(255, 248, 243);
+    margin: 130px 0px;
 }
 
-.section-title{
+.section-title {
     color: rgb(24, 24, 24);
-font-size: 35px;
-font-weight: 700;
-line-height: 48px;
-text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
 }
 
-.section-des{
+.section-des {
     color: rgb(117, 117, 117);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
 
-main section{
+main section {
 
     margin top: 130px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
 
-.about-info{
+.about-info {
     text-align: center;
 }
 
-#what-i-do-des{
+#what-i-do-des {
     padding: 30px 150px;
 }
 
-.skills-container{
+.skills-container {
     display: flex;
     gap: 24px;
 }
 
-.skill{
+.skill {
     padding: 30px;
     border-radius: 5px;
 
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-background: rgb(255, 255, 255);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
 }
 
-.skill-des{
+.skill-des {
     color: rgb(117, 117, 117);
 }
 
-.resume-colum-title{
+.resume-colum-title {
     color: rgb(71, 71, 71);
     font-size: 30px;
     font-weight: 700;
+}
+.resume-containar{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-info,.resume-item-discription{
+    color: rgb(117, 117, 117);
+}
+
+.resume-item-title{
+    color: rgb(71, 71, 71);
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.resume-containar hr{
+    margin: 30px;
+}
+
+.resume-item-info{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.download-cv{
+    text-align: center;
+    margin: 50px;
 }
