@@ -91,7 +91,7 @@ height: 60px;
     padding: 130px;
     border-radius: 10px;
 background: rgb(255, 248, 243);
-margin: 130px 230px;
+margin: 130px 0px;
 }
 
 .section-title{
@@ -109,4 +109,17 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0%;
 text-align: center;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
 }
