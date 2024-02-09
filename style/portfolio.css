@@ -158,40 +158,64 @@ main section {
     font-size: 30px;
     font-weight: 700;
 }
-.resume-containar{
+
+.resume-containar {
     display: flex;
     gap: 50px;
 }
 
-.resume-item-info,.resume-item-discription{
+.resume-item-info,
+.resume-item-discription {
     color: rgb(117, 117, 117);
 }
 
-.resume-item-title{
+.resume-item-title {
     color: rgb(71, 71, 71);
-font-size: 25px;
-font-weight: 700;
-margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
-.resume-containar hr{
+
+.resume-containar hr {
     margin: 30px;
 }
 
-.resume-item-info{
+.resume-item-info {
     margin-top: 0px;
     margin-bottom: 20px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin: 50px;
 }
 
 /* footer */
 
-footer{
+footer {
     display: flex;
+    gap: 100px;
     background: rgb(255, 248, 243);
     padding: 130px 200px;
     margin top: 100px;
+}
+
+.footer.colum {
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: rgb(117, 117, 117);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border: 0px;
+    width: 100%;
+}
+
+.social-links a{
+    margin-right: 25px;
 }
